@@ -3,6 +3,11 @@ from pygame.draw import *
 
 pygame.init()
 
+#Redacting  --   File "smile2.2.py", line 113, in lama
+#    pygame.draw.circle(screen, WHITE, (x+200*Q, y+730*Q), 10*Q)
+# TypeError: integer argument expected, got float          ----- needs to be rectified but the code is hard coded, no space for rectification. Need to make functions to accept arguments to draw objects rather than hard coding objects.
+
+
 FPS = 30
 screen = pygame.display.set_mode((800, 800))
 
